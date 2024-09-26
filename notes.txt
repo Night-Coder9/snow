@@ -1,0 +1,17 @@
+////Add Ons and features////
+
+Objective 1 -> Make the clearing form details button in agency-detials  [DONE] ✅
+
+objective 2 -> Make some improvements in UI and cumulative shifts
+
+objective 3 -> Form validation [DONE] ✅
+
+objective 4 -> Fix the notification bar scroll problem [DONE] ✅
+
+objective 5 -> Complete the UI section of Home Page of the website
+
+objective 6 -> Drag and Drop functionality in Kan-ban board
+
+objective 7 -> Fix the margin problem of the agency Details form [DONE] ✅
+
+objective 8 -> Fix the stripe Form redirecting to [domain] not to agency
