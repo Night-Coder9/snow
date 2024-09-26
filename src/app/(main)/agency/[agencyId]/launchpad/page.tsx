@@ -70,7 +70,7 @@ const LaunchPadPage = async({params, searchParams}: Props) => {
           <Card className='border-none'>
             <CardHeader>
               <CardTitle>
-              Let's Roll into It !
+              Let&apos;s Roll into It !
               </CardTitle>
               <CardDescription>
                 Follow the steps below to get your account setup

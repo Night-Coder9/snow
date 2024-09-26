@@ -39,7 +39,7 @@ export default function Home() {
                     <p className="text-muted-foreground text-center">
                     Our CRM platform brings you closer to your customers than ever before.
                     
-                     <br /> Experience seamless management of contacts, sales, and services with a click!"
+                     <br /> Experience seamless management of contacts, sales, and services with a click!
 
                     </p>
                     <div className="flex justify-center gap-4 flex-wrap mt-6">
