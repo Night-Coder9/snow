@@ -16,9 +16,10 @@ type Props = {
 
 const AllSubAccountsPage = async({params}: Props) => {
 
-    const user = await getAuthUserDetails()
-    if(!user) return
-
+    const user = await getAuthUserDetails();
+    if(!user) {
+        return
+    }
   return (
     <AlertDialog>
         <div className='flex flex-col'>
@@ -31,8 +32,6 @@ const AllSubAccountsPage = async({params}: Props) => {
         <Command className='rounded-lg bg-transparent'>
             <CommandInput placeholder='Search Sub Account'/>
             <CommandList>
-                {}
-                    {/* <CommandEmpty>No results Found</CommandEmpty> */}
                     <CommandGroup heading="Sub Accounts">
                     {!!user.Agency?.SubAccount.length ?
                      user.Agency.SubAccount.map((subaccount: SubAccount) => (

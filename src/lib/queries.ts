@@ -41,7 +41,7 @@ export const saveActivityLogsNotification =async ({
     agencyId?: string,
     description: string,
     subaccountId?: string
-}) => {
+}):Promise<void> => {
         const authUser = await currentUser()
         let userData;
         if(!authUser){
