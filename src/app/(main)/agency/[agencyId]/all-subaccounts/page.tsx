@@ -20,6 +20,7 @@ const AllSubAccountsPage = async({params}: Props) => {
     if(!user) {
         return
     }
+    
   return (
     <AlertDialog>
         <div className='flex flex-col'>
