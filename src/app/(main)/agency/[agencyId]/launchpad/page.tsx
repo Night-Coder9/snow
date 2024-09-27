@@ -1,8 +1,8 @@
 import { Button } from '@/components/ui/button'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
 import { db } from '@/lib/db'
-import { stripe } from '@/lib/stripe'
-import { getStripeOAuthLink } from '@/lib/utils'
+// import { stripe } from '@/lib/stripe'
+// import { getStripeOAuthLink } from '@/lib/utils'
 import { ArrowRightCircleIcon, CheckCircle2Icon, CheckCircleIcon } from 'lucide-react'
 import Image from 'next/image'
 import Link from 'next/link'
@@ -102,20 +102,19 @@ const LaunchPadPage = async({params, searchParams}: Props) => {
                     />
                     <p>Connect Your Stripe account to accept Payments</p>
                   </div>
-                  {/* {agencyDetails.connectAccountId || connectedStripeAccount ? (
+                  {agencyDetails.connectAccountId ? (
                 <CheckCircleIcon
                   size={50}
                   className=" text-primary p-2 flex-shrink-0"
-                /> */}
+                />
               ) : (
                 <Link
                   className="bg-primary py-2 px-4 rounded-md text-white"
-                  // href={stripeOAuthLink}
-                  href={"#"}
+                  href="#"
                 >
                   Start
                 </Link>
-              )
+              )}
                 </div>
         {/* ------------------------------------------------------------------------------------------------- */}
                 <div className='flex justify-between items-center w-full border p-4 rounded-lg gap-2'>

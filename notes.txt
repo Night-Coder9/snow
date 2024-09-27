@@ -93,3 +93,18 @@ export async function POST(req: Request) {
         })
       }
 }
+
+
+
+
+
+
+
+
+
+
+ // connectedStripeAccount ? (
+                //   <CheckCircleIcon
+                //     size={50}
+                //     className=" text-primary p-2 flex-shrink-0"
+                //   />
